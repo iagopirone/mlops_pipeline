@@ -1,0 +1,49 @@
+# Cache gerado automaticamente pelo Python
+
+# Ignora pastas que contêm bytecode temporário.
+__pycache__/
+
+# Ignora arquivos Python compilados.
+*.pyc
+
+
+# Ambiente virtual do projeto
+
+# Contém o Python e as bibliotecas instaladas localmente.
+.venv/
+
+
+# Variáveis de ambiente e arquivos com segredos
+
+# Contém os valores reais usados localmente.
+.env
+
+# Ignora variações como .env.local e .env.test.
+.env.*
+
+# Abre uma exceção para o modelo sem valores secretos.
+!.env.example
+
+
+# Cache e relatórios gerados pelos testes
+
+# Cache criado pelo pytest.
+.pytest_cache/
+
+# Dados gerados pela medição de cobertura.
+.coverage
+
+# Relatório visual de cobertura em HTML.
+htmlcov/
+
+
+# Arquivos gerados durante o empacotamento
+
+# Diretório temporário usado durante o build.
+build/
+
+# Pacotes instaláveis gerados a partir do código-fonte.
+dist/
+
+# Metadados gerados durante a instalação ou build.
+*.egg-info/
