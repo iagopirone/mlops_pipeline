@@ -60,6 +60,16 @@ Os arquivos de teste e as funções de teste seguirão o prefixo `test_`. Quando
 uv run pytest
 ```
 
+## Hook pós-commit
+
+O arquivo `hooks/post-commit` exibe uma confirmação depois que um commit é
+criado. Instale o hook no repositório local com:
+
+```bash
+cp hooks/post-commit .git/hooks/post-commit
+chmod +x .git/hooks/post-commit
+```
+
 ## Gerenciamento de dependências
 
 As dependências de execução estão declaradas no `pyproject.toml`.
